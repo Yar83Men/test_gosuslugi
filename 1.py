@@ -7,8 +7,8 @@ if not os.path.exists('folder'):
 
 driver = webdriver.Firefox()
 
-my_login = 'yarik83.evpat@gmail.com'
-my_password = '>n9~PbVbW7'
+my_login = 'логин в госуслуги'
+my_password = 'пароль в госуслуги'
 
 driver.get('https://www.gosuslugi.ru/')
 driver.maximize_window()
