@@ -29,7 +29,6 @@ my_doc.click()
 time.sleep(1)
 div_info = driver.find_element_by_class_name('content')
 
-#print(div_info.text)
 if not os.path.exists('folder/text.txt'):
     f = open('folder/text.txt', 'w')
     for i in div_info.text:
